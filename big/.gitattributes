@@ -1,2 +1,0 @@
-hippo/data_slice1.h5ad filter=lfs diff=lfs merge=lfs -text
-hippo/V1_Adult_Mouse_Brain_image.tif filter=lfs diff=lfs merge=lfs -text
