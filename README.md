@@ -1,9 +1,8 @@
 We noticed that that the ELD framework defines three models in model.py: UniModal, MultiModal, and Model3D.
-While we believe our hippocampal (hippo) data aligns more closely with the definition of multimodal data, we noticed that your provided tutorial exclusively demonstrates UniModal and 3D implementations.
+While we believe our hippocampal (hippo) data are more in line with the definition of multimodal data, we noticed that your provided tutorial exclusively demonstrates UniModal and 3D implementations.
 Notably, your multimodal.ipynb example also trains a 3D model instead a multimodal one.
 
-Consequently, we encountered uncertainty regarding optimal parameter configurations for authentic multimodal training.
-Our attempts to train a multimodal model failed to produce results and yielded the following error:
+Therefore, we are unsure what kind of parameters should be used to train a multimodal model, and our attempts to train a multimodal model failed to produce results and yielded the following error:
 
 UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
   warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
