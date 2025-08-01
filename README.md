@@ -1,4 +1,4 @@
-We noticed that that the ELD framework defines three models in its architecture: UniModal, MultiModal, and Model3D.
+We noticed that that the ELD framework defines three models in model.py: UniModal, MultiModal, and Model3D.
 While we believe our hippocampal (hippo) data aligns more closely with the definition of multimodal data, we noticed that your provided tutorial exclusively demonstrates UniModal and 3D implementations.
 Notably, your multimodal.ipynb example also trains a 3D model instead a multimodal one.
 
