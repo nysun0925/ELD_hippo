@@ -26,5 +26,7 @@ RuntimeError: min(): Expected reduction dim to be specified for input.numel() ==
 
 
 Due to these challenges, the current version of our Jupyter notebook only includes implementations for:
+
 1.UniModal-based landmark detection and rigid registration
+
 2.3D-model-based landmark detection and rigid registration
